@@ -71,3 +71,15 @@ table {
     background-color: #2d8fd580;
     color: #ffffff;
 }
+
+
+.botao-deletar {
+    min-height: 44px;
+    border-radius: 10px;
+    border-color: #df5f6a;
+    border-style: solid;
+    background-color: #2d8fd500;
+    color: #df5f6a;
+    padding-left: 20px;
+    padding-right: 20px;
+}
