@@ -1,9 +1,10 @@
 body {
     display: flex;
     flex-direction: column;
-    padding: 20px;
+    gap: 20px;
     font-family: Verdana, sans-serif;
     background-color: #e6e6e6;
+    margin: 0px;
 }
 
 main {
@@ -12,7 +13,8 @@ main {
     gap: 20px;
     background-color: #ffffff;
     border-radius: 10px;
-    padding: 20px;
+    padding: 32px;
+    margin: 20px;
 }
 
 h1 {
@@ -82,4 +84,12 @@ table {
     color: #df5f6a;
     padding-left: 20px;
     padding-right: 20px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: #ffffff;
+    padding: 12px;
 }
