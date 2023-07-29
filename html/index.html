@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-do List</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav>
+        <picture>
+            <img src="todoicon.png" alt="Todofy Logo" width="40px" height="40px">
+        </picture>
+        <h1>Todofy</h1>
+    </nav>
+
+    <main>
+        <!--Este é o formulário onde irá inputar as informações para a to-do list -->
+        <form action="">
+            <label for="usuario">Usuário da tarefa</label><br>
+            <input type="text" id="usuario" class="input-de-texto" placeholder="Digite o usuário da tarefa..." required><br>
+
+            <label for="tarefa">Tarefa</label><br>
+            <input type="textarea" id="tarefa" class="input-de-texto" placeholder="Digite a tarefa..." required><br>
+
+            <input type="submit" value="Criar tarefa" class="botoes-primarios">
+            <input type="reset" value="Limpar campo" class="botoes-secundarios">
+        </form>
+
+        <!--Tabela onde irá conter os dados que o usuário inputou no formulário acima-->
+        <table>
+            <tr>
+                <th>Index</th>
+                <th>Usuário da tarefa</th>
+                <th>Tarefa</th>
+            </tr>
+
+            <tr>
+                <td>1</td>
+                <td>Samuel</td>
+                <td>Limpar a casa</td>
+                <td>
+                    <div>
+                    <button class="botoes-secundarios">Editar</button>
+                    <button class="botao-deletar">Deletar</button>
+                    </div>
+                </td>
+            </tr>
+            
+            <tr>
+                <td>2</td>
+                <td>Pedro</td>
+                <td>Fazer compras</td>
+                <td>
+                    <div>
+                    <button class="botoes-secundarios">Editar</button>
+                    <button class="botao-deletar">Deletar</button>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </main>
+</body>
+
+</html>
