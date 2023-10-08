@@ -1,0 +1,21 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    color:brown;
+    text-align: center;
+}
+
+h3 {
+    color: brown;
+    text-decoration: underline;
+}
+
+#imagem-bolo {
+    text-align: center;
+}
